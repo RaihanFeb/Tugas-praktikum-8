@@ -2,12 +2,16 @@
 #include <cstdlib>
 using namespace std;
 
+struct Zodiak {
+    int tanggalAwal;
+    int bulanAwal;
+    int tanggalAkhir;
+    int bulanAkhir;
+
 int main(){
     int bulan,tanggal;
     char nama[20];
 
- start1:
-     system ("cls");
      cout<<"Masukkan Nama Anda: ";
      cin>>nama;
      cout<<"Bulan Lahir(1-12): ";
