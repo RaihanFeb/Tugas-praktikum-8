@@ -7,6 +7,7 @@ struct Zodiak {
     int bulanAwal;
     int tanggalAkhir;
     int bulanAkhir;
+};
 
 int main(){
     int bulan,tanggal;
