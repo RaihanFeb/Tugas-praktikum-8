@@ -3,8 +3,7 @@
 using namespace std;
 
 int main(){
-    int bulan, tanggal;
-    char inputsalah, ramalan, tiperamalan;
+    int bulan,tanggal;
     char nama[20];
 
  start1:
